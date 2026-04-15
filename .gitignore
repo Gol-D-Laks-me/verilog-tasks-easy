@@ -1,0 +1,11 @@
+# Simulation files
+*.vcd
+*.out
+
+# Temp / logs
+*.log
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
