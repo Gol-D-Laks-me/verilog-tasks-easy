@@ -1,0 +1,37 @@
+$date
+	Wed Apr 15 14:46:19 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module adder_tb $end
+$var wire 5 ! sum [4:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$scope module dut $end
+$var wire 4 $ a [3:0] $end
+$var wire 4 % b [3:0] $end
+$var wire 5 & sum [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b111 &
+b11 %
+b100 $
+b11 #
+b100 "
+b111 !
+$end
+#10000
+b1000 #
+b1000 %
+b1111 !
+b1111 &
+b111 "
+b111 $
+#20000
